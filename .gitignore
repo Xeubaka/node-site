@@ -1,0 +1,33 @@
+# dependencies (frontend/backend dev tooling only)
+node_modules/
+
+# runtime / data
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/
+backend/data/
+uploads/
+backend/uploads/
+
+# env
+.env
+*.env
+!*.env.example
+
+# coverage / test output
+coverage/
+.nyc_output/
+
+# graphify output (dev/CI tool)
+graphify-out/
+graphify/
+
+# claude
+.claude/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+*.log
